@@ -2,6 +2,10 @@
 html,
 body {
     background: black;
+    background-image: url(foto.jpg) ;
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     color: blanchedalmond;
   }
 header  {
@@ -35,6 +39,11 @@ section {
   background: #273746;
   border: 10px solid silver;
   text-align: center;
+}
+aside2{
+	position:fixed; width:25%; top:150px; Bottom:0; right:0; left:75%;
+background:url(foto.jpg); 
+background-size:25%; background-repeat:no-repeat; background-position:center 5%;
 }
 education {
   background: black;
